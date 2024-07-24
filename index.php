@@ -51,7 +51,7 @@
 
 <body>
     <?php include 'menu.php'?>
-
+<?php include 'slider.php';?>
     
     
     <?php include 'js.php'; ?>
