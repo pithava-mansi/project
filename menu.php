@@ -1,8 +1,9 @@
+
 <nav class="navbar container align-item-center nav-item  m-auto navbar-expand-lg mt-3 p-2 mb-3">
     <div class="container-fluid text-center">
-        <div class="d-flex  justify-content-center  mt-3">
+        <!-- <div class="d-flex  justify-content-center  mt-3">
             <img class="logo" src="asset/css/image/" alt="" srcset="">
-        </div>
+        </div> -->
 
 
         <a class="navbar-brand " href="#"> AGRIMART </a>
@@ -14,13 +15,14 @@
 
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item toggle">
-                    <a class="nav-link  " href="index.php">Home</a>
+                    <a class="nav-link" href="index.php">
+                    <i class="bi bi-house-door-fill"></i>Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link " href="#">About us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="#">Contact us</a>
+                    <a class="nav-link " href="#"></i>Contact us</a>
                 </li>
                 <li class="nav-item ">
                     <a class="nav-link " href="feedback.php">feedback</a>
@@ -31,7 +33,6 @@
             </ul>
             <form class="d-flex">
                 <a class="nav-link text-dark" href="logout.php">Hi,
-                    <!-- <?php echo ucwords($_SESSION['username']); ?>  -->
                     <span class="btn nav-item text-danger">Logout</span></a>
             </form>
         </div>

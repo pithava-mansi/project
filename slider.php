@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div id="carouselExampleCaptions" class="carousel slide">
+    <div id="carouselExampleCaptions" class="carousel slide ">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
@@ -20,14 +20,14 @@
         </div>
         <div class="carousel-inner container">
             <div class="carousel-item active">
-                <img src="asset/css/image/fertilizer.jpeg" class="img" alt="...">
+                <img src="asset/css/image/fertilizer.jpeg" class="img" alt="..." style="height:70%;width:70%">
                
             </div>
             <div class="carousel-item">
-                <img src="asset/css/image/lg.jpeg" class="img" alt="...">
+                <img src="asset/css/image/lg.jpeg" class="img" alt="..."style="height:70%;width:70%">
             </div>
             <div class="carousel-item">
-                <img src="asset/css/image/organic.jpeg" class="img" alt="...">
+                <img src="asset/css/image/organic.jpeg" class="img" alt="..."style="height:70%;width:70%">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"

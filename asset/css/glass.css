@@ -60,7 +60,7 @@ input:focus {
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .form {
-    color: white;
+    color: rgb(255, 255, 255);
     background: rgba(255, 255, 255, 0.4);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(52, 54, 91, 0.563);
@@ -69,8 +69,8 @@ input:focus {
     border: 1px solid rgba(7, 6, 6, 0.4);
 }
 .logo{
-    height: 15%;
-    width: 15%;
+    height: 50%;
+    width: 50%;
 }
 .img{
     border-radius: 16px;
